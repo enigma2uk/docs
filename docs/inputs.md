@@ -14,19 +14,13 @@ It's also worth noting that any existing cabling through your property will work
 
 ### Sky Q
 
-* Compatibility: ONLY SKY Q RECEIVERS
-
 Sky Q uses Wideband LNB's which are currently only compatible with Sky Q receivers. If instructed prior to Sky Q installation, Sky will sometimes install a [Hybrid LNR](https://www.amazon.co.uk/Visiblewave-Hybrid-Output-Wideband-Freesat/dp/B07GS1Z2YP) which supports both the required inputs for the Sky Q receivers plus *Legacy* outputs for Freesat compatibility. In most situations, the standard LNB (usually with two cables) on a standard Sky Q installation will not work with any Freesat branded or Enigma2 receiver.
 
 ### Freesat / Sky Legacy
 
-* Compatibility: ALL RECEIVERS (ENGIMA2 INCLUDED)
-
 Current Freesat (and Sky legacy LNBs) are usually Dual, Quad or Octo LNBs, which provide separate discrete outputs to each receiving box.
 
 ### Unicable
-
-* Compatibility: FCB TUNERS ONLY, INCOMPATIBLE WITH FREESAT RECEIVERS
 
 [Unicable](https://en.wikipedia.org/wiki/Unicable) LNBs allow a single output and cable to carry the entire frequency range received from the dish. To use a Unicable LNB, you must have a tuner capable of receiving a FCB (Full Channel Broadcast) or SCR (Single Cable Receiver) signal. Unfortunately, currently all Freesat receivers as well as Sky legacy boxes are INCOMPATIBLE with a Unicable LNB and signal.
 
