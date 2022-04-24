@@ -8,4 +8,4 @@ We intend to cover all the basics from choosing a suitable LNB replacement and s
 
 Please note that although much of the information provided here with probably work with a Terrestrial/Aerial (DVB-T) based configuration, we will be mainly focussing on Satellite (DVB-S) setups. 
 
-To dive in, head to the [Documentation](https://enigma2uk.github.io/) site!
+To dive in, head to the [Documentation](https://enigma2uk.github.io/docs/) site!
