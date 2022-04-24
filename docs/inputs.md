@@ -28,7 +28,7 @@ Sky Q uses Wideband LNB's which are currently only compatible with Sky Q receive
 
 Current Freesat (and Sky legacy LNBs) are usually Dual, Quad or Octo LNBs, which provide separate discrete outputs to each receiving box.
 
-Most Freesat tuners receive channels from multiple *Transponders* (called *Multiplexes* in the Freeview/DVB-T world). If your LNB has two discrete outputs and your receiver has two discrete inputs, it is capable of allowing the watching (or recording or streaming) of any channel on that transponder. These tuners are often looped back to allow additional channels on the same transponder to be watched (or recorded etc.) simultaneously.
+Most Freesat tuners receive channels from multiple *Transponders* (called *Multiplexes* in the Freeview/DVB-T world). If your LNB has two discrete outputs and your receiver has two discrete inputs, it is capable of allowing the watching (or recording or streaming) of any channel on two transponders. These tuners are often looped back to allow additional channels on the same transponder to be watched (or recorded etc.) simultaneously.
 
 There are currently three main satellite transponders used for UK OTA (Freesat) broadcasts:
 
