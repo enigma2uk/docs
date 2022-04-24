@@ -22,8 +22,6 @@ There are currently three main satellite transponders used for UK OTA (Freesat) 
 
 Source: [https://en.satexpat.com/tv/uk/freesat/](https://en.satexpat.com/tv/uk/freesat/)
 
-If your LNB and receiver only supports two transponders, you can only watch/record/stream from upto two transponders at a time, meaning you may not be able to record a programme on another transponder, if your tuner is currently tuned (or locked) to two already.
-
 The following table provides a breakdown of compatibility of the various LNBs available against which receivers they are compatible with.
 
 | LNB      | Sky Q        | Sky Legacy   | Freesat      | Enigma2 |
