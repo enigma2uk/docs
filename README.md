@@ -1,6 +1,6 @@
 # Enigma2 DVB-S Guide (UK Specific)
 
-The UK centric guide to using the various Satellite (DVB-S) TV set-top boxes than utilise the open source [Enigma2](https://www.enigma2.net/) platform!
+The UK centric guide to using the various Satellite (DVB-S) TV set-top boxes that utilise the open source [Enigma2](https://www.enigma2.net/) platform!
 
 There doesn't appear to be much information on acquiring, installing and configuring Enigma2 boxes on the web, especially for the UK market, which is dominated by state-maintained Freesat or commercial operations such as Sky TV and Virgin Media.
 
