@@ -48,7 +48,7 @@ A standard Freesat LNB offers the most compatibility in that it works with all s
 
 [Unicable](https://en.wikipedia.org/wiki/Unicable) LNBs allow a single output and cable to carry the entire frequency range received from the dish. To use a Unicable LNB, you must have a tuner capable of receiving a FCB (Full Channel Broadcast) or SCR (Single Cable Receiver) signal. 
 
-Unfortunately, currently all Freesat receivers as well as Sky legacy boxes are INCOMPATIBLE with a Unicable LNB and signal.
+Unfortunately, currently all Freesat receivers as well as all Sky boxes are INCOMPATIBLE with a Unicable LNB and signal. You will need an advanced tuner like those found in Enigma2 receivers, or any tuner labelled SCR or FCB.
 
 As Unicable LNBs deliver everything received from the dish in a single signal over a single cable, the tuner is responsible for processing the various different transponder feeds. FCB capable tuners mean that any combination of channels across any combination of transponders can be used for watching, recording and streaming etc.
 
