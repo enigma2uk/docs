@@ -1,5 +1,6 @@
 ---
 locale: "en-GB"
-title: "Enigma2 DVB-S Guide (UK Specific)"
+title: "Enigma2 DVB-S UK"
+description: "UK specific guide for Enigma2 based DVB-S set-top boxes"
 theme: jekyll-theme-minimal
 
