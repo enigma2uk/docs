@@ -6,11 +6,14 @@ It's also worth noting that any existing cabling through your property will work
 
 ## LNB
 
-| LNB      | Sky Q              | Sky Legacy         | Freesat            | Enigma2            |
-| -------- | ------------------ | ------------------ | ------------------ | ------------------ |
-| Sky Q    | :white_check_mark:	|                    |                    |                    |
-| Freesat  |                    | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Unicable |                    |                    |                    | :white_check_mark: |
+| LNB      | Sky Q     | Sky Legacy | Freesat | Enigma2 |
+| -------- | --------- | ---------- | ------- | ------- |
+| Sky Q    | Yes       |            |         |         |
+| Freesat  | Maybe [1] | Yes        | Yes     | Yes [2] |
+| Unicable |           |            |         | Yes     |
+
+1. Some Sky Q installations may have a Hybrid LNR which is compatible with both Sky Q receivers and standard Freesat receivers.
+2. Whilst Enigma2 can support Freesat LNBs, it is limited to the number of multiplexes, each provided to the tuner by the LNBs discrete outputs.
 
 ### Sky Q
 
