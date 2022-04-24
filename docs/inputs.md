@@ -10,7 +10,7 @@ The LNB, or [Low-Noise Block Downconverter](https://en.wikipedia.org/wiki/Low-no
 
 Obviously, all satellite signals are the same, but the LNB is responsible for receiving those signals and converting them into something that our set-top boxes understand. Some LNBs are considered dumb, and simply forward on everything to the tuner, assuming the tuner is capable of understanding and performing the conversion itself. Most LNBs are slightly smarter, in that they separate the various signal groups (high/low frequencies) before outputting to the receiver.
 
-### Trasponders (Multiplexes)
+### Transponders (Multiplexes)
 
 Most Freesat tuners receive channels from multiple *Transponders* (called *Multiplexes* in the Freeview/DVB-T world). If your LNB has two discrete outputs and your receiver has two discrete inputs, it is capable of allowing the watching (or recording or streaming) of any channel on two transponders. These tuners are often looped back to allow additional channels on the same transponder to be watched (or recorded etc.) simultaneously.
 
@@ -48,7 +48,7 @@ A standard Freesat LNB offers the most compatibility in that it works with all s
 
 [Unicable](https://en.wikipedia.org/wiki/Unicable) LNBs allow a single output and cable to carry the entire frequency range received from the dish. To use a Unicable LNB, you must have a tuner capable of receiving a FCB (Full Channel Broadcast) or SCR (Single Cable Receiver) signal. 
 
-Unfortunately, currently all Freesat receivers as well as all Sky boxes are INCOMPATIBLE with a Unicable LNB and signal. You will need an advanced tuner like those found in Enigma2 receivers, or any tuner labelled SCR or FCB.
+Unfortunately, currently all Freesat receivers as well as all Sky boxes are totally incompatible with a Unicable LNB and signal. You will need an advanced tuner like those found in Enigma2 receivers, or any tuner labelled SCR or FCB.
 
 As Unicable LNBs deliver everything received from the dish in a single signal over a single cable, the tuner is responsible for processing the various different transponder feeds. FCB capable tuners mean that any combination of channels across any combination of transponders can be used for watching, recording and streaming etc.
 
