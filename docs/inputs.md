@@ -36,7 +36,7 @@ There are currently three main satellite transponders used for UK OTA (Freesat) 
 * **Astra 2F**: CBS, Reality, GB News, etc.
 * **Astra 2G**: Channel 5, BBC HD, ITV HD, Channel 4 HD, etc.
 
-(Source: [https://en.satexpat.com/tv/uk/freesat/](https://en.satexpat.com/tv/uk/freesat/))
+Source: [https://en.satexpat.com/tv/uk/freesat/](https://en.satexpat.com/tv/uk/freesat/)
 
 If your LNB and receiver only supports two transponders, you can only watch/record/stream from upto two transponders at a time, meaning you may not be able to record a programme on another transponder, if your tuner is currently tuned (or locked) to two already.
 
