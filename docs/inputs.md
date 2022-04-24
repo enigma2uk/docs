@@ -40,7 +40,7 @@ Sky Q uses Wideband LNB's which are currently only compatible with Sky Q receive
 
 ### Freesat (Dual/Quad/Octo Universal)
 
-Current Freesat (and Sky legacy LNBs) are usually Dual, Quad or Octo LNBs, which provide separate discrete outputs to each receiving box.
+Current Freesat (and Sky legacy LNBs) are usually Dual (2 output), Quad (4 output) or Octo (8 output) LNBs, which provide separate discrete outputs to each receiving box.
 
 A standard Freesat LNB offers the most compatibility in that it works with all standard UK Freesat receivers, as well as Enigma2 (although with tuner restrictions). It can also be compatible with existing Sky systems, including Sky Q (if a compatible hybrid LNR is installed).
 
