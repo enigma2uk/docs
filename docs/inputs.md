@@ -10,6 +10,22 @@ The LNB, or [Low-Noise Block Downconverter](https://en.wikipedia.org/wiki/Low-no
 
 Obviously, all satellite signals are the same, but the LNB is responsible for receiving those signals and converting them into something that our set-top boxes understand. Some LNBs are considered dumb, and simply forward on everything to the tuner, assuming the tuner is capable of understanding and performing the conversion itself. Most LNBs are slightly smarter, in that they separate the various signal groups (high/low frequencies) before outputting to the receiver.
 
+### Trasponders (Multiplexes)
+
+Most Freesat tuners receive channels from multiple *Transponders* (called *Multiplexes* in the Freeview/DVB-T world). If your LNB has two discrete outputs and your receiver has two discrete inputs, it is capable of allowing the watching (or recording or streaming) of any channel on two transponders. These tuners are often looped back to allow additional channels on the same transponder to be watched (or recorded etc.) simultaneously.
+
+There are currently three main satellite transponders used for UK OTA (Freesat) broadcasts:
+
+* **Astra 2E**: BBC, ITV, Channel 4, etc.
+* **Astra 2F**: CBS, Reality, GB News, etc.
+* **Astra 2G**: Channel 5, BBC HD, ITV HD, Channel 4 HD, etc.
+
+Source: [https://en.satexpat.com/tv/uk/freesat/](https://en.satexpat.com/tv/uk/freesat/)
+
+If your LNB and receiver only supports two transponders, you can only watch/record/stream from upto two transponders at a time, meaning you may not be able to record a programme on another transponder, if your tuner is currently tuned (or locked) to two already.
+
+The following table provides a breakdown of compatibility of the various LNBs available against which receivers they are compatible with.
+
 | LNB      | Sky Q        | Sky Legacy   | Freesat      | Enigma2 |
 | -------- | ------------ | ------------ | ------------ | ------- |
 | Sky Q    | Yes          |              |              |         |
@@ -28,21 +44,13 @@ Sky Q uses Wideband LNB's which are currently only compatible with Sky Q receive
 
 Current Freesat (and Sky legacy LNBs) are usually Dual, Quad or Octo LNBs, which provide separate discrete outputs to each receiving box.
 
-Most Freesat tuners receive channels from multiple *Transponders* (called *Multiplexes* in the Freeview/DVB-T world). If your LNB has two discrete outputs and your receiver has two discrete inputs, it is capable of allowing the watching (or recording or streaming) of any channel on two transponders. These tuners are often looped back to allow additional channels on the same transponder to be watched (or recorded etc.) simultaneously.
-
-There are currently three main satellite transponders used for UK OTA (Freesat) broadcasts:
-
-* **Astra 2E**: BBC, ITV, Channel 4, etc.
-* **Astra 2F**: CBS, Reality, GB News, etc.
-* **Astra 2G**: Channel 5, BBC HD, ITV HD, Channel 4 HD, etc.
-
-Source: [https://en.satexpat.com/tv/uk/freesat/](https://en.satexpat.com/tv/uk/freesat/)
-
-If your LNB and receiver only supports two transponders, you can only watch/record/stream from upto two transponders at a time, meaning you may not be able to record a programme on another transponder, if your tuner is currently tuned (or locked) to two already.
+A standard Freesat LNB offers the most compatibility in that it works with all standard UK Freesat receivers, as well as Enigma2 (although with tuner restrictions). It can also be compatible with existing Sky systems, including Sky Q (if a compatible hybrid LNR is installed).
 
 ### Unicable (FCB/SCR)
 
-[Unicable](https://en.wikipedia.org/wiki/Unicable) LNBs allow a single output and cable to carry the entire frequency range received from the dish. To use a Unicable LNB, you must have a tuner capable of receiving a FCB (Full Channel Broadcast) or SCR (Single Cable Receiver) signal. Unfortunately, currently all Freesat receivers as well as Sky legacy boxes are INCOMPATIBLE with a Unicable LNB and signal.
+[Unicable](https://en.wikipedia.org/wiki/Unicable) LNBs allow a single output and cable to carry the entire frequency range received from the dish. To use a Unicable LNB, you must have a tuner capable of receiving a FCB (Full Channel Broadcast) or SCR (Single Cable Receiver) signal. 
+
+Unfortunately, currently all Freesat receivers as well as Sky legacy boxes are INCOMPATIBLE with a Unicable LNB and signal.
 
 As Unicable LNBs deliver everything received from the dish in a single signal over a single cable, the tuner is responsible for processing the various different transponder feeds. FCB capable tuners mean that any combination of channels across any combination of transponders can be used for watching, recording and streaming etc.
 
